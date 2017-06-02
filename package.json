@@ -5,7 +5,7 @@
   "main": "webpack.config.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-	"start": "webpack-dev-server --inline --host localhost --port 8888 --config webpack.config.js"
+    "start": "webpack-dev-server--config webpack.config.inline.cmd.js --inline --hot "
   },
   "author": "WuLiangzhi",
   "license": "ISC",
